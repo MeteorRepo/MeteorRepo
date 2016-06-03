@@ -28,17 +28,15 @@ Meteor.startup(Template.body.renderToDocument);                      // 6
 Template.__checkName("hello");                                       // 8
 Template["hello"] = new Template("Template.hello", (function() {     // 9
   var view = this;                                                   // 10
-  return [ HTML.Raw("<button>Click Me</button>\n  "), HTML.P("You've pressed the button ", Blaze.View("lookup:counter", function() {
-    return Spacebars.mustache(view.lookup("counter"));               // 12
-  }), " times.") ];                                                  // 13
-}));                                                                 // 14
-                                                                     // 15
-Template.__checkName("info");                                        // 16
-Template["info"] = new Template("Template.info", (function() {       // 17
-  var view = this;                                                   // 18
-  return HTML.Raw('<h2>Learn Meteor!</h2>\n  <ul>\n    <li><a href="https://www.meteor.com/try">Do the Tutorial</a></li>\n    <li><a href="http://guide.meteor.com">Follow the Guide</a></li>\n    <li><a href="https://docs.meteor.com">Read the Docs</a></li>\n    <li><a href="https://forums.meteor.com">Discussions</a></li>\n  </ul>');
-}));                                                                 // 20
-                                                                     // 21
+  return "";                                                         // 11
+}));                                                                 // 12
+                                                                     // 13
+Template.__checkName("info");                                        // 14
+Template["info"] = new Template("Template.info", (function() {       // 15
+  var view = this;                                                   // 16
+  return "";                                                         // 17
+}));                                                                 // 18
+                                                                     // 19
 ///////////////////////////////////////////////////////////////////////
 
 },"main.js":["meteor/templating","meteor/reactive-var","./main.html",function(require){

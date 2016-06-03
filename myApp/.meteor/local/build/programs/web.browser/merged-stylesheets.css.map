@@ -1,1 +1,1 @@
-{"version":3,"sources":["meteor://💻app/app/client/main.css"],"names":[],"mappings":"AAAA","sourcesContent":["/* CSS declarations go here */\n"]}
+{"version":3,"sources":["meteor://💻app/app/client/main.css"],"names":[],"mappings":"AAAA;;AAEA;EACI","sourcesContent":["/* CSS declarations go here */\n\nh1 {\n    color:crimson;\n}"]}
