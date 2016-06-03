@@ -1,12 +1,24 @@
 <head>
-  <title>Work Tracker</title>
+    <title>Work Tracker</title>
 </head>
 
 <body>
   <h1>Welcome to the Work Tracker</h1>
+    
+    
+    <ul>
+        <li><a href="">Reminders</a></li>
+        <li><a href="">Views</a></li>
+        <li><a href=""></a></li>
+        <li style="float:right"><a class="active" href="">About Company</a></li>
+    </ul>
+    
+     <ul>
+      {{#each tasks}}
+        {{> task}}
+      {{/each}}
+    </ul>
 
-  {{> hello}}
-  {{> info}}
 </body>
 
 <template name="hello">
