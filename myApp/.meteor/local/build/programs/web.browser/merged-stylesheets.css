@@ -3,6 +3,7 @@
 html {
   padding: 10px;
   font-family: Verdana, sans-serif;
+  background-color: #4FC3F7;
 }
 
 .login-buttons-dropdown-align-right {
@@ -15,10 +16,10 @@ body {
 
 h1 {
   color: white;
-  border: 2px solid black;
-  padding: 5px 10px 0px 0px;
+  border: 2px #00897B;
+  padding: 5px 10px 0px 10px;
   margin: auto;
-  background-color: #333;
+  background-color: #00897B;
 }
 
 ul {
@@ -26,7 +27,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #00897B;
 }
 
 li {
@@ -44,5 +45,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-  background-color: #111;
+  background-color: #81D4FA;
 }
+
