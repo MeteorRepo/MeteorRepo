@@ -1,11 +1,21 @@
 /* CSS declarations go here */
 
+
+html{
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+.login-buttons-dropdown-align-right{
+    float: right;
+}
+
 body{
     text-align: center;
 }
 
 h1 {
-    color:aquamarine;
+    color:white;
     border: 2px solid black;
     padding: 5px 10px 0px 0px;
     margin:auto;
