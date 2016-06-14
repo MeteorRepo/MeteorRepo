@@ -6,6 +6,39 @@ html {
   background-color: #4FC3F7;
 }
 
+.mdl-button--fab.mdl-button--colored {
+  background: #ff4081;
+  color: #fff;
+}
+
+.mdl-button--fab {
+  border-radius: 50%;
+  font-size: 24px;
+  height: 56px;
+  margin: auto;
+  min-width: 56px;
+  width: 56px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+  position: relative;
+  line-height: normal;
+}
+
+.mdl-button {
+  border: none;
+  display: inline-block;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .login-buttons-dropdown-align-right {
   float: right;
 }
