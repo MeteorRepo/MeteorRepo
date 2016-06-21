@@ -7,7 +7,7 @@ html {
 }
 
 .mdl-button--fab.mdl-button--colored {
-  background: #ff4081;
+  background: #00897B;
   color: #fff;
 }
 
@@ -75,7 +75,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to blue on hover */
 
 li a:hover {
   background-color: #81D4FA;

@@ -535,22 +535,22 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/app.js?hash=6e93c47f68ee6a28e8668c06f2e116c6e908a3b2",
+      "url": "/app/app.js?hash=be06f61e8042e0cf273aa87f359c7dd615148ba4",
       "sourceMap": "app/app.js.map",
-      "sourceMapUrl": "/app/6e93c47f68ee6a28e8668c06f2e116c6e908a3b2.map",
-      "size": 3361,
-      "hash": "6e93c47f68ee6a28e8668c06f2e116c6e908a3b2"
+      "sourceMapUrl": "/app/be06f61e8042e0cf273aa87f359c7dd615148ba4.map",
+      "size": 4085,
+      "hash": "be06f61e8042e0cf273aa87f359c7dd615148ba4"
     },
     {
       "path": "merged-stylesheets.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?hash=3af716e8ff5ddd39fea24cb9e57d8b60d63f7be0",
+      "url": "/merged-stylesheets.css?hash=6cc802e2d636fa46522ba2070a7b29867b4e7478",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/3af716e8ff5ddd39fea24cb9e57d8b60d63f7be0.map",
-      "size": 1436,
-      "hash": "3af716e8ff5ddd39fea24cb9e57d8b60d63f7be0"
+      "sourceMapUrl": "/6cc802e2d636fa46522ba2070a7b29867b4e7478.map",
+      "size": 1428,
+      "hash": "6cc802e2d636fa46522ba2070a7b29867b4e7478"
     },
     {
       "path": "head.html",
